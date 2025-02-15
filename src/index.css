@@ -8,3 +8,17 @@ body {
 .nav-item a:hover {
     text-decoration: underline white;
 }
+
+footer ul {
+    list-style: none;
+}
+
+footer i {
+    padding-left: 5px;
+    font-size: 2em;
+    color: grey;
+}
+
+footer i:hover {
+    color: white;
+}

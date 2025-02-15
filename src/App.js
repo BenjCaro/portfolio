@@ -10,6 +10,9 @@ function App() {
     <header>
       <Navbar />
     </header>
+    <main>
+      MAIN
+    </main>
     <Footer />
     </>
   )

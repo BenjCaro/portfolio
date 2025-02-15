@@ -6,50 +6,45 @@ const TitleColumn = (props) => {
 
 const ElementListFooter = (props) => {
     return (
-        <li>{props.content}</li>
+        <span>{props.content}</span>
     )
 }
 
 export const Footer = () => {
     return (
-        <footer>
-            <div className="container" >
-                <div className="row">
-                    <TitleColumn title="John Doe" />
-                    <ul>
+        <footer className="container-fluid bg-dark text-white" >
+            <div className="container">
+                <div className="row" >
+                    <div className="col-sm d-flex flex-column py-4">
+                        <TitleColumn title="John Doe" />
                         <ElementListFooter content="40 rue Laure Diebold" />
                         <ElementListFooter content="69009 Lyon, France" />
                         <ElementListFooter content="10 20 30 40 50" />
                         <ElementListFooter content="johndoe@gmail.com" />
-                    </ul>
-                    <span>
-                        <i className="bi bi-github"></i>
-                        <i className="bi bi-twitter-x"></i>
-                        <i className="bi bi-linkedin"></i>
-                    </span>
-                </div>
-                <div className="row">
-                    <TitleColumn title="Liens utiles" />
-                    <ul>
+                        <span className="py-4">
+                            <i className="bi bi-github"></i>
+                            <i className="bi bi-twitter-x"></i>
+                            <i className="bi bi-linkedin"></i>
+                        </span>
+                    </div>
+                    <div className="col-sm d-flex flex-column py-4">
+                        <TitleColumn title="Liens utiles" />
                         <ElementListFooter content="Accueil" />
                         <ElementListFooter content="Services" />
                         <ElementListFooter content="Portfolio" />
                         <ElementListFooter content="Me contacter" />
                         <ElementListFooter content="Mention légales" />
-                    </ul>
+                    </div>
+                    <div className="col-sm d-flex flex-column py-4">
+                        <TitleColumn title="Mes dernières réalisations" />
+                        <ElementListFooter content="Fresh Food" />
+                        <ElementListFooter content="Restaurant Akira" />
+                        <ElementListFooter content="Espace Bien Etre" />
+                        <ElementListFooter content="SEO" />
+                        <ElementListFooter content="Création d'une API" />
+                        <ElementListFooter content="Maquette d'un site" />
+                    </div>
                 </div>
-                <div className="row">
-                    <TitleColumn title="Mes dernières réalisations" />
-                    <ul>
-                    <ElementListFooter content="Fresh Food" />
-                    <ElementListFooter content="Restaurant Akira" />
-                    <ElementListFooter content="Espace Bien Etre" />
-                    <ElementListFooter content="SEO" />
-                    <ElementListFooter content="Création d'une API" />
-                    <ElementListFooter content="Maquette d'un site" />
-                    </ul>
-                </div>
-
             </div>
         </footer>
         
