@@ -15,19 +15,19 @@ export const Footer = () => {
         <footer className="container-fluid bg-dark text-white" >
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm d-flex flex-column py-4">
-                        <TitleColumn title="John Doe" />
+                    <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4">
+                        <TitleColumn title="John Doe" className="" />
                         <ElementListFooter content="40 rue Laure Diebold" />
                         <ElementListFooter content="69009 Lyon, France" />
                         <ElementListFooter content="10 20 30 40 50" />
                         <ElementListFooter content="johndoe@gmail.com" />
-                        <span className="py-4">
+                        <span className="mt-4">
                             <i className="bi bi-github"></i>
                             <i className="bi bi-twitter-x"></i>
                             <i className="bi bi-linkedin"></i>
                         </span>
                     </div>
-                    <div className="col-sm d-flex flex-column py-4">
+                    <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Liens utiles" />
                         <ElementListFooter content="Accueil" />
                         <ElementListFooter content="Services" />
@@ -35,7 +35,7 @@ export const Footer = () => {
                         <ElementListFooter content="Me contacter" />
                         <ElementListFooter content="Mention légales" />
                     </div>
-                    <div className="col-sm d-flex flex-column py-4">
+                    <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Mes dernières réalisations" />
                         <ElementListFooter content="Fresh Food" />
                         <ElementListFooter content="Restaurant Akira" />
