@@ -1,8 +1,16 @@
-const Titre = () => <h1>Bonjour à tous</h1>;
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './index.css';
+import { Navbar } from './Navbar';
+
+
 
 function App() {
   return (
-      <Titre/>
+    <header>
+      <Navbar />
+    </header>
+      
   )
 }
 
