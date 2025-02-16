@@ -7,13 +7,8 @@ import { Footer } from './Footer';
 function App() {
   return (
     <>
-    <header>
       <Navbar />
-    </header>
-    <main>
-      MAIN
-    </main>
-    <Footer />
+      <Footer />
     </>
   )
 }
