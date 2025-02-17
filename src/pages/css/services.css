@@ -3,3 +3,7 @@ i {
     font-size: 2em;
 }
 
+.card:hover {
+     background-color: #efefef;
+     box-shadow: 0 0 10px #efefef;
+}
