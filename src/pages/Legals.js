@@ -1,3 +1,5 @@
+import './css/legals.css';
+
 const ElementAccordeonOne = (props) => {
     const user = {
         name: "Doe",
@@ -18,10 +20,10 @@ const ElementAccordeonOne = (props) => {
           <div id="panelsStayOpen-collapseOne" classNameName="accordion-collapse collapse show">
               <div className="accordion-body fw-semibold">
                   <span className="fs-4">{user.surname} {user.name} </span> <br/>
-                  {user.street} <br/>
-                  {user.town} <br/>
-                  {user.phone} <br/>
-                  {user.mail}
+                  <i class="bi bi-map"></i> {user.street} <br/>
+                  <i class="bi bi-geo-alt"></i> {user.town} <br/>
+                  <i class="bi bi-phone"></i> {user.phone} <br/>
+                  <i class="bi bi-envelope-at"></i> {user.mail}
                 </div>
           </div>
         </div>
@@ -39,7 +41,7 @@ const ElementAccordeonTwo = (props) => {
             <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse">
               <div className="accordion-body">
                   <h3 className="fw-bold fs-4">{props.title}</h3>
-                  <h4>{props.adress}</h4>
+                  <h4><i class="bi bi-globe"></i> {props.adress}</h4>
                   <a href="#" className="link-primary">{props.site}</a>
               </div>
             </div>
