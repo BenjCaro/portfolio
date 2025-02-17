@@ -12,7 +12,7 @@ const ElementListFooter = (props) => {
 
 export const Footer = () => {
     return (
-        <footer className="container-fluid bg-dark text-white" >
+        <footer className="container-fluid bg-dark text-white min-vh-100" >
             <div className="container ps-4 ps-md-5">
                 <div className="row" >
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4">
