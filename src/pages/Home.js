@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='container bg-body'>
-                <div className='row border border-white m-4 shadow rounded-1'>
+                <div className='row border border-white shadow rounded-1 ms-1 me-1 mt-5 mb-5'>
                     <section className='col-md-6 py-3 ps-4'>
                         <h3 className='border-bottom border-primary border-4 fw-bold pb-2'>
                             A propos

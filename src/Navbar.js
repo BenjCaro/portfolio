@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
-          <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body ps-3" data-bs-theme="dark">
+          <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body ps-4" data-bs-theme="dark">
             <div className="container-fluid">
                 <Link className="navbar-brand " to="/pages/home">JOHN DOE</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

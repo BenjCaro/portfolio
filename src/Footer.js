@@ -1,19 +1,19 @@
 const TitleColumn = (props) => {
     return (
-            <h4>{props.title}</h4>
+            <h4 className="fs-4">{props.title}</h4>
     )
 }
 
 const ElementListFooter = (props) => {
     return (
-        <span>{props.content}</span>
+        <span className="fs-6">{props.content}</span>
     )
 }
 
 export const Footer = () => {
     return (
         <footer className="container-fluid bg-dark text-white" >
-            <div className="container">
+            <div className="container ps-4 ps-md-5">
                 <div className="row" >
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4">
                         <TitleColumn title="John Doe" className="" />
