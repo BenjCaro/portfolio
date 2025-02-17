@@ -74,11 +74,13 @@ const ElementAccordeonThree = (props) => {
 const Legals = () => {
     return (
         <div className='container'>
-            <div className='text-center mt-4'>
-                <h1 className='' >
+          <div className='d-flex flex-column justify-content-center align-items-center'>
+            <div className='fs-1 text-center mt-4 border-bottom border-4 border-primary w-30 pe-3 ps-3 '>
+                <h1 className='fw-bold' >
                     Mentions Légales
                 </h1>
             </div>
+          </div>
             <div className="accordion mb-5 mt-5" id="accordionPanelsStayOpenExample">
               <ElementAccordeonOne heading="Editeur du site"/>
               <ElementAccordeonTwo heading="Hébergeur" title="alwaysdata" adress="91 rue du Faubourg Saint-Honoré, 75008 Paris" site="www.alwaysdate.com"/>
