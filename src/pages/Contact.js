@@ -1,12 +1,10 @@
 import React from 'react';
+import Heading from './Component/Heading';
+
 
 const Contact = () => {
     return (
-        <div>
-            <h1>
-                CONTACT
-            </h1>
-        </div>
+        <Heading title="Contact" subtitle="" />
     )
 }
 

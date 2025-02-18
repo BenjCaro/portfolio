@@ -1,0 +1,15 @@
+a.btn-primary:hover {
+    background-color: #2680ff;
+    border-color: #2680ff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .content {
+           flex-direction: column;
+           
+    }
+}
+

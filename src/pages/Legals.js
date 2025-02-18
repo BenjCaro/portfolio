@@ -1,4 +1,5 @@
 import './css/legals.css';
+import Heading from "./Component/Heading";
 
 const ElementAccordeonOne = (props) => {
     const user = {
@@ -62,8 +63,8 @@ const ElementAccordeonThree = (props) => {
                     <div className="accordion-body">
                       <h3 className="fw-bold fs-4 mb-3">{props.title}</h3>
                       <h4 className="mb-3">Ce site a été réalisé par John Doe, étudiant au <span className="text-decoration-underline text-primary">Centre Européen de Formation.</span></h4>
-                      <h4 className="fst-italic mb-3">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/" target="_blank">Pixabay</a>.</h4>
-                      <h4 className="fst-italic mb-3">La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" target="_blank">John Doe Icons erstellt Von Freepik - Flaticon</a></h4>
+                      <h4 className="fst-italic mb-3">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/" rel="noreferrer" target="_blank">Pixabay</a>.</h4>
+                      <h4 className="fst-italic mb-3">La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" rel="noreferrer" target="_blank">John Doe Icons erstellt Von Freepik - Flaticon</a></h4>
                     </div>
                 </div>
          </div>        
@@ -73,18 +74,12 @@ const ElementAccordeonThree = (props) => {
 const Legals = () => {
     return (
         <div className='container'>
-          <div className='d-flex flex-column justify-content-center align-items-center'>
-            <div className='fs-1 text-center mt-4 border-bottom border-4 border-primary w-30 pe-3 ps-3 '>
-                <h1 className='fw-bold' >
-                    Mentions Légales
-                </h1>
-            </div>
-          </div>
-            <div className="accordion mb-5 mt-5" id="accordionPanelsStayOpenExample">
+          <Heading title="Mention Legales"/>
+          <div className="accordion mb-5 mt-5" id="accordionPanelsStayOpenExample">
               <ElementAccordeonOne heading="Editeur du site"/>
               <ElementAccordeonTwo heading="Hébergeur" title="alwaysdata" adress="91 rue du Faubourg Saint-Honoré, 75008 Paris" site="www.alwaysdate.com"/>
               <ElementAccordeonThree heading="Crédits" title="Crédits"/>
-            </div>
+          </div>
         </div>
     );
 }
