@@ -70,7 +70,6 @@ const ElementAccordeonThree = (props) => {
     );
 }
 
-
 const Legals = () => {
     return (
         <div className='container'>
