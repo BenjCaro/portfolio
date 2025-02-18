@@ -1,7 +1,8 @@
 import './css/services.css';
+import Banniere from "./Component/Banniere";
 
-const Banniere = () => <img alt="banniere" title="banniere" src="/images/banner.jpg" className='img-fluid'/>
-const Card = (props) => {
+
+function Card(props) {
     return (
         <div className="card ms-3 me-3 mb-3">
             <div className="card-body text-center">
@@ -10,7 +11,7 @@ const Card = (props) => {
                 <p className="card-text fs-6">{props.services}</p>
             </div>
         </div>
-    )
+    );
 }
 
 const Services = () => {

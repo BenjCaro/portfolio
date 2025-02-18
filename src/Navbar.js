@@ -23,7 +23,7 @@ export const Navbar = () => {
                     <Link className="nav-link text-uppercase " to="/pages/contact">Contact</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-uppercase" to="/pages/legals">Mentions légales</Link>
+                    <Link className="nav-link text-uppercase" to="/pages/legals">Mentions legales</Link>
                   </li>
                 </ul>
               </div>

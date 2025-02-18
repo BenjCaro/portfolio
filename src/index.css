@@ -10,6 +10,10 @@ body {
     text-decoration: underline white;
 }
 
+.active{
+    color: red;
+    
+    }
 
 footer ul {
     list-style: none;
