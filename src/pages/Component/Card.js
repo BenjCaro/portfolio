@@ -1,7 +1,7 @@
 const Card = (props) => {
     return (
 
-        <div className="card col-sm text-center m-auto" style={{width: "18rem"}}>
+        <div className="card col text-center m-auto" style={{width: "18rem"}}>
             <img src={props.source} className="card-img-top img-fluid" alt={props.description}></img>
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
