@@ -29,7 +29,7 @@ const Form = () => {
                 
                 <div class="col-md-12 mb-3">
                     
-                    <textarea class="form-control" placeholder="Votre Message" required></textarea>
+                    <textarea class="form-control" placeholder="Votre Message" rows="14" required></textarea>
                 
                 </div>
                 
