@@ -1,6 +1,6 @@
 import React from 'react';
 import Heading from './Component/Heading';
-
+import Form from './Component/Form';
 
 const user = {
     name: "Doe",
@@ -20,6 +20,7 @@ const Contact = () => {
                 <h2 className='border-bottom border-primary border-4 fw-bold pb-2 fs-4'>
                     Formulaire de contact
                 </h2>
+                <Form/>
             </div>
             <div>
                 <h2 className='border-bottom border-primary border-4 fw-bold pb-2 fs-4'>
