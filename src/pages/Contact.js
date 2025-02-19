@@ -16,8 +16,8 @@ const Contact = () => {
         <>
         <Heading title="Contact" subtitle="Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact." />
         <section className='container border d-flex'>
-            <div className='p-4'>
-                <h2 className='border-bottom border-primary border-4 fw-bold pb-2 fs-4'>
+            <div className='m-2 p-2'>
+                <h2 className='border-bottom border-primary border-4 fw-bold pb-2 fs-4 '>
                     Formulaire de contact
                 </h2>
                 <Form/>

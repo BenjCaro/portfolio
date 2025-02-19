@@ -1,15 +1,46 @@
 const Form = () => {
     return (
-        <div>
-            <form>
-                <input type="text" name="nom" placeholder="Votre nom" required></input>
-                <input type="email" name="email" placeholder="Votre adress mail" required></input>
-                <input type="tel" name="phone" placeholder="Votre numéro de téléphone" required></input>
-                <input type="text" name="sujet"  placeholder="Sujet" required></input>
-                <textarea placeholder="Votre Message" required></textarea>
-                <input type="submit"></input>
-            </form>
-        </div>
+        <form className="mt-4">
+            <div class="row text-center">
+                <div class="col-md-12 mb-2">
+                    
+                    <input type="text" class="form-control" name="nom" placeholder="Votre nom" required/>
+                
+                </div>
+                
+                <div class="col-md-12 mb-2">
+                    
+                    <input type="email" class="form-control" name="email" placeholder="Votre adresse mail" required/>
+                
+                </div>
+                
+                
+                <div class="col-md-12 mb-2">
+                    
+                    <input type="tel" class="form-control" name="phone" placeholder="Votre numéro de téléphone" required/>
+                    
+                </div>
+                <div class="col-md-12 mb-2">
+                    
+                    <input type="text" class="form-control" name="sujet" placeholder="Sujet" required/>
+                    
+                </div>
+                
+                
+                <div class="col-md-12 mb-3">
+                    
+                    <textarea class="form-control" placeholder="Votre Message" required></textarea>
+                
+                </div>
+                
+                
+                <div class="col-md-12 mb-3">
+                    
+                    <input type="submit" class="btn btn-primary" value="Envoyer"/>
+                
+                </div>
+            </div>
+      </form>
         
     )
 }
