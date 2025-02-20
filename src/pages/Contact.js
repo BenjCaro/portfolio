@@ -23,7 +23,7 @@ const Contact = () => {
                 <Form/>
             </div>
             <div className='m-2 p-2 col-lg-6 col-md-6 col-sm-12'>
-                <h2 className='border-bottom border-primary border-4 fw-bold pb-2 fs-4'>
+                <h2 className='border-bottom border-primary border-4 me-4 fw-bold pb-2 fs-4'>
                    Mes Coordonnées
                 </h2>
                 <div className=''>
