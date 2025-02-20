@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const TitleColumn = (props) => {
     return (
@@ -33,25 +33,20 @@ export const Footer = () => {
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Liens utiles" />
-                        <Link className="nav-link" aria-current="page" to="/">Accueil</Link>
-                        <Link className="nav-link" to="/pages/services">Services</Link>
-                        <Link className="nav-link" to="/pages/realisations">Portfolio</Link>
-                        <Link className="nav-link" to="/pages/contact">Me contacter</Link>
-                        <Link className="nav-link" to="/pages/legals">Mentions légales</Link>
-
-
-                        
+                        <NavLink className="nav-link" aria-current="page" to="/">Accueil</NavLink>
+                        <NavLink className="nav-link" to="/pages/services">Services</NavLink>
+                        <NavLink className="nav-link" to="/pages/realisations">Portfolio</NavLink>
+                        <NavLink className="nav-link" to="/pages/contact">Me contacter</NavLink>
+                        <NavLink className="nav-link" to="/pages/legals">Mentions légales</NavLink>
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Mes dernières réalisations" />
-                        <Link className="nav-link" to="/pages/realisations">Fresh Food</Link>
-                        <Link className="nav-link" to="/pages/realisations">Restaurant Akira</Link>
-                        <Link className="nav-link" to="/pages/realisations">Espace bien-être</Link>
-                        <Link className="nav-link" to="/pages/realisations">SEO</Link>
-                        <Link className="nav-link" to="/pages/realisations">Création d'une API</Link>
-                        <Link className="nav-link" to="/pages/realisations">Maquette d'un site</Link>
-                        
-                        
+                        <NavLink className="nav-link" to="/pages/realisations">Fresh Food</NavLink>
+                        <NavLink className="nav-link" to="/pages/realisations">Restaurant Akira</NavLink>
+                        <NavLink className="nav-link" to="/pages/realisations">Espace bien-être</NavLink>
+                        <NavLink className="nav-link" to="/pages/realisations">SEO</NavLink>
+                        <NavLink className="nav-link" to="/pages/realisations">Création d'une API</NavLink>
+                        <NavLink className="nav-link" to="/pages/realisations">Maquette d'un site</NavLink>   
                     </div>
                 </div>
             </div>
