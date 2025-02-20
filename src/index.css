@@ -10,17 +10,14 @@ body {
     text-decoration: underline white;
 }
 
-.active{
+/* .active {
     color: red;
     
-    }
+    } */
 
-footer ul {
-    list-style: none;
-}
 
 footer i {
-    font-size: 2em;
+    font-size: 24px;
     color: grey;
 }
 

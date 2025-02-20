@@ -11,7 +11,7 @@ export const Navbar = () => {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                    <Link className="nav-link text-uppercase " aria-current="page" to="/">Home</Link>
+                    <Link className="nav-link text-uppercase" aria-current="page" to="/">Home</Link>
                    </li>
                   <li className="nav-item">
                     <Link className="nav-link text-uppercase " to="/pages/services">Services</Link>
