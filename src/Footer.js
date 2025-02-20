@@ -14,11 +14,10 @@ const ElementListFooter = (props) => {
 }
 
 
-
 export const Footer = () => {
     return (
-        <footer className="container-fluid bg-dark text-white min-vh-100" >
-            <div className="container ps-4 ps-md-5">
+        <footer className="container-fluid bg-dark text-white pb-5" >
+            <div className="container ps-4 pe-4 ps-md-5">
                 <div className="row" >
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4">
                         <TitleColumn title="John Doe" className="" />
@@ -45,7 +44,12 @@ export const Footer = () => {
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Mes dernières réalisations" />
-                        
+                        <Link className="nav-link" to="/pages/realisations/#one">Fresh Food</Link>
+                        <Link className="nav-link" to="/pages/realisations/#two">Restaurant Akira</Link>
+                        <Link className="nav-link" to="/pages/realisations/#three">Espace bien-être</Link>
+                        <Link className="nav-link" to="/pages/realisations/#four">SEO</Link>
+                        <Link className="nav-link" to="/pages/realisations/#five">Création d'une API</Link>
+                        <Link className="nav-link" to="/pages/realisations/#six">Maquette d'un site</Link>
                         
                         
                     </div>
