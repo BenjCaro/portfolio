@@ -44,12 +44,12 @@ export const Footer = () => {
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Mes dernières réalisations" />
-                        <Link className="nav-link" to="/pages/realisations/#one">Fresh Food</Link>
-                        <Link className="nav-link" to="/pages/realisations/#two">Restaurant Akira</Link>
-                        <Link className="nav-link" to="/pages/realisations/#three">Espace bien-être</Link>
-                        <Link className="nav-link" to="/pages/realisations/#four">SEO</Link>
-                        <Link className="nav-link" to="/pages/realisations/#five">Création d'une API</Link>
-                        <Link className="nav-link" to="/pages/realisations/#six">Maquette d'un site</Link>
+                        <Link className="nav-link" to="/pages/realisations">Fresh Food</Link>
+                        <Link className="nav-link" to="/pages/realisations">Restaurant Akira</Link>
+                        <Link className="nav-link" to="/pages/realisations">Espace bien-être</Link>
+                        <Link className="nav-link" to="/pages/realisations">SEO</Link>
+                        <Link className="nav-link" to="/pages/realisations">Création d'une API</Link>
+                        <Link className="nav-link" to="/pages/realisations">Maquette d'un site</Link>
                         
                         
                     </div>
