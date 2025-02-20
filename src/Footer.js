@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TitleColumn = (props) => {
     return (
             <h4 className="fs-4">{props.title}</h4>
@@ -7,8 +9,11 @@ const TitleColumn = (props) => {
 const ElementListFooter = (props) => {
     return (
         <span className="fs-6">{props.content}</span>
+        
     )
 }
+
+
 
 export const Footer = () => {
     return (
@@ -29,20 +34,20 @@ export const Footer = () => {
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Liens utiles" />
-                        <ElementListFooter content="Accueil" />
-                        <ElementListFooter content="Services" />
-                        <ElementListFooter content="Portfolio" />
-                        <ElementListFooter content="Me contacter" />
-                        <ElementListFooter content="Mention légales" />
+                        <Link className="nav-link" aria-current="page" to="/">Accueil</Link>
+                        <Link className="nav-link" to="/pages/services">Services</Link>
+                        <Link className="nav-link" to="/pages/realisations">Portfolio</Link>
+                        <Link className="nav-link" to="/pages/contact">Me contacter</Link>
+                        <Link className="nav-link" to="/pages/legals">Mentions légales</Link>
+
+
+                        
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
                         <TitleColumn title="Mes dernières réalisations" />
-                        <ElementListFooter content="Fresh Food" />
-                        <ElementListFooter content="Restaurant Akira" />
-                        <ElementListFooter content="Espace Bien Etre" />
-                        <ElementListFooter content="SEO" />
-                        <ElementListFooter content="Création d'une API" />
-                        <ElementListFooter content="Maquette d'un site" />
+                        
+                        
+                        
                     </div>
                 </div>
             </div>
