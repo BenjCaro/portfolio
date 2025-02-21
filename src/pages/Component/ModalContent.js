@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const ModalContent = () => {
+const ModalContent = ({ onClose }) => {
 
     const [user, setUser] = useState('');
 
@@ -16,11 +16,11 @@ const ModalContent = () => {
 
      return (
         <>
-        <div className="card border-bottom border-secondary-subtle text-bg-dark m-auto" data-bs-theme="dark" style={{maxWidth: "540px"}}>
+        <div className="card text-bg-dark position-fixed top-50 start-50 translate-middle w-100  d-flex justify-content-center align-items-center" data-bs-theme="dark" style={{maxWidth: "540px"}}>
            <div className="card-body mb-3">
                 <div className="d-flex justify-content-between border-bottom border-secondary-subtle">
                     <h2 className="fs-4">Mon profil Github</h2> 
-                    <button type="button" class="btn-close" ></button>
+                    <button type="button" class="btn-close" onClick={onClose} ></button>
                 </div>
                 <div className="row g-0">
                     <div className="col-md-4">
@@ -39,7 +39,7 @@ const ModalContent = () => {
                 </div>
             </div>
             <div className="card-footer text-end">
-                <button className="btn btn-secondary">Fermer</button>
+                <button className="btn btn-secondary" onClick={onClose}>Fermer</button>
             </div>
         </div>
         </>

@@ -9,7 +9,7 @@ const Progress = (props) => <h4>{props.langage}</h4>;
 const Home = () => {
     return (
         <>
-            <div className="container-fluid  img-bg d-flex justify-content-center align-items-center">
+            <div id="modal" className="container-fluid  img-bg d-flex justify-content-center align-items-center">
                 <div className='text-center text-white'>
                     <Hello surname="John" name="Doe" />
                     <TitleHome />
