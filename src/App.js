@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import Realisations from './pages/Realisations';
 import Contact from './pages/Contact';
 import Legals from './pages/Legals';
+import Modal from './pages/Component/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './index.css';
