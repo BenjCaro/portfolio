@@ -1,5 +1,4 @@
 import { ButtonHome } from './ButtonHome';
-import Modal from './Component/Modal';
 import './css/home.css';
 const TitleHome = () => <h1 className='fw-bold'>Developpeur web full stack</h1> ;
 const Hello = (props) => <h2 className='fw-bold'>Bonjour, je suis {props.surname} {props.name}</h2>;
