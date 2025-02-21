@@ -23,3 +23,14 @@ footer i {
 footer i:hover {
     color: white;
 }
+
+
+footer .nav-link.active {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer .nav-link:hover {
+    font-weight: bold;
+    
+}
