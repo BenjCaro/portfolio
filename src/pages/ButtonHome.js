@@ -1,4 +1,4 @@
-import Modal from './Component/Modal';
+
 
 function handleClick() {
      
