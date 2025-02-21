@@ -10,11 +10,10 @@ body {
     text-decoration: underline white;
 }
 
-/* .active {
-    color: red;
-    
-    } */
-
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 footer i {
     font-size: 24px;
@@ -23,4 +22,15 @@ footer i {
 
 footer i:hover {
     color: white;
+}
+
+
+footer .nav-link.active {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer .nav-link:hover {
+    font-weight: bold;
+    
 }
