@@ -16,7 +16,7 @@ const ModalContent = ({ onClose }) => {
 
      return (
         <>
-        <div className="card text-bg-dark position-fixed top-50 start-50 translate-middle w-100  d-flex justify-content-center align-items-center" data-bs-theme="dark" style={{maxWidth: "540px"}}>
+        <div className="card text-bg-dark position-fixed top-50 start-50 translate-middle w-100 d-flex justify-content-center align-items-center m-sm-4" data-bs-theme="dark" style={{maxWidth: "540px"}}>
            <div className="card-body mb-3">
                 <div className="d-flex justify-content-between border-bottom border-secondary-subtle">
                     <h2 className="fs-4">Mon profil Github</h2> 
