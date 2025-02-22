@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const TitleColumn = (props) => {
     return (
-            <h4 className="fs-4">{props.title}</h4>
+            <h3 className="fs-4">{props.title}</h3>
     )
 }
 

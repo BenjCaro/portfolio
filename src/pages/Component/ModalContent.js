@@ -25,7 +25,7 @@ const ModalContent = ({ onClose }) => {
             </div>  
             <div className="row m-2">
                     <div className="col-md-7 mt-3">
-                        <img src={user.avatar_url} className="img-fluid rounded-start" alt={user.login}/>
+                        <img src={user.avatar_url} className="img-fluid rounded-start" alt={`${user.login} developpeur full stack`}/>
                     </div>
                     <div className="col-md-5 mt-3">
                         <div className="card-body">
