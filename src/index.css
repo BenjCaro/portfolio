@@ -15,6 +15,13 @@ body {
     text-decoration: underline;
 }
 
+
+.i-modal {
+    font-size: 1em;
+    color:white;
+    margin-right: 6px;
+}
+
 footer i {
     font-size: 24px;
     color: grey;

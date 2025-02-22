@@ -23,17 +23,17 @@ const ModalContent = ({ onClose }) => {
                     <button type="button" class="btn-close" onClick={onClose} ></button>
                 </div>
                 <div className="row g-0">
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-3">
                         <img src={user.avatar_url} className="img-fluid rounded-start" alt={user.login}/>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 mt-3">
                         <div className="card-body">
-                            <h5 className="card-title border-bottom border-secondary-subtle">{user.name}</h5>
-                            <p className="card-text border-bottom border-secondary-subtle">logo {user.location}</p>
-                            <p className="card-text border-bottom border-secondary-subtle">{user.bio}</p>
-                            <p className="card-text border-bottom border-secondary-subtle">Repositories: {user.public_repos}</p>
-                            <p className="card-text border-bottom border-secondary-subtle">Followers: {user.followers}</p>
-                            <p className="card-text border-bottom border-secondary-subtle">Followings: {user.following}</p>
+                            <h5 className="card-title border-bottom border-secondary-subtle"><i class="i-modal bi bi-person"></i>{user.name}</h5>
+                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-geo-alt"></i>{user.location}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-card-text"></i>{user.bio}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-box"></i>Repositories: {user.public_repos}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-people"></i>Followers: {user.followers}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-people"></i>Followings: {user.following}</p>
                         </div>
                     </div>
                 </div>

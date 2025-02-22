@@ -6,7 +6,7 @@ function CardServices(props) {
     return (
         <div className="card-hover card ms-3 me-3 mb-3">
             <div className="card-body text-center">
-                <i className={props.icon}></i>
+                <i className={`${props.icon} service-i`}></i>
                 <h2 className="card-title pt-4 fs-3 fw-bold">{props.title}</h2>
                 <p className="card-text fs-6">{props.services}</p>
             </div>
