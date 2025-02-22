@@ -42,7 +42,7 @@ const ElementAccordeonTwo = (props) => {
             <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse">
               <div className="accordion-body">
                   <h3 className="fw-bold fs-4">{props.title}</h3>
-                  <h4><i class="bi bi-globe"></i> {props.adress}</h4>
+                  <p><i class="bi bi-globe"></i> {props.adress}</p>
                   <a href="#" className="link-primary">{props.site}</a>
               </div>
             </div>
@@ -62,9 +62,9 @@ const ElementAccordeonThree = (props) => {
                 <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
                     <div className="accordion-body">
                       <h3 className="fw-bold fs-4 mb-3">{props.title}</h3>
-                      <h4 className="mb-3">Ce site a été réalisé par John Doe, étudiant au <span className="text-decoration-underline text-primary">Centre Européen de Formation.</span></h4>
-                      <h4 className="fst-italic mb-3">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/" rel="noreferrer" target="_blank">Pixabay</a>.</h4>
-                      <h4 className="fst-italic mb-3">La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" rel="noreferrer" target="_blank">John Doe Icons erstellt Von Freepik - Flaticon</a></h4>
+                      <p className="mb-3">Ce site a été réalisé par John Doe, étudiant au <span className="text-decoration-underline text-primary">Centre Européen de Formation.</span></p>
+                      <p className="fst-italic mb-3">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/" rel="noreferrer" target="_blank">Pixabay</a>.</p>
+                      <p className="fst-italic mb-3">La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" rel="noreferrer" target="_blank">John Doe Icons erstellt Von Freepik - Flaticon</a></p>
                     </div>
                 </div>
          </div>        

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const TitleColumn = (props) => {
     return (
-            <h4 className="fs-4">{props.title}</h4>
+            <h3 className="fs-4">{props.title}</h3>
     )
 }
 
@@ -26,9 +26,9 @@ export const Footer = () => {
                         <ElementListFooter content="10 20 30 40 50" />
                         <ElementListFooter content="johndoe@gmail.com" />
                         <span className="mt-3">
-                               <a href="https://github.com/BenjCaro/" target='_blank' rel="noreferrer"><i className="bi bi-github "></i></a> 
-                               <a href="https://x.com/?lang=fr" target='_blank' rel="noreferrer"><i className="bi bi-twitter-x ps-2 "></i></a>
-                               <a href="https://www.linkedin.com/" target='_blank' rel="noreferrer"><i className="bi bi-linkedin ps-2 "></i></a>
+                               <a href="https://github.com/BenjCaro/" target='_blank' rel="nofollow"><i className="bi bi-github "></i></a> 
+                               <a href="https://x.com/?lang=fr" target='_blank' rel="nofollow"><i className="bi bi-twitter-x ps-2 "></i></a>
+                               <a href="https://www.linkedin.com/" target='_blank' rel="nofollow"><i className="bi bi-linkedin ps-2 "></i></a>
                         </span>
                     </div>
                     <div className="col-sm col-md-4 lg-4 xl-4 xxl-4 d-flex flex-column mt-4 ">
