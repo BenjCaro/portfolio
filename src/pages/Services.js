@@ -1,4 +1,3 @@
-import './css/services.css';
 import Banniere from "./Component/Banniere";
 import Heading from './Component/Heading';
 
