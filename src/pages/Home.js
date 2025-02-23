@@ -22,7 +22,7 @@ const Home = () => {
                         <h3 className='border-bottom border-primary border-4 fw-bold pb-2'>
                             A propos
                         </h3>
-                        <img className='img-fluid mb-4' src="/images/john-doe-about.jpg" alt="John Doe developpeur full stack" title="John Doe"></img>
+                        <img className='img-fluid mb-4' src="/images/john-doe-about.jpg" alt="John Doe developpeur full stack" width="600" height="300"></img>
                         <Paragraph content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, tortor in pharetra sodales, dolor diam condimentum velit, non pharetra sapien odio imperdiet enim. " />
                         <Paragraph content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, tortor in pharetra sodales, dolor diam condimentum velit, non pharetra sapien odio imperdiet enim. " />
                         <Paragraph content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, tortor in pharetra sodales, dolor diam condimentum velit, non pharetra sapien odio imperdiet enim. " />

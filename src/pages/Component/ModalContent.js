@@ -20,7 +20,7 @@ const ModalContent = ({ onClose }) => {
            <div className="card-header">
                 <div className="d-flex justify-content-between ">
                     <h2 className="fs-4">Mon profil Github</h2> 
-                    <button type="button" class="btn-close" onClick={onClose} ></button>
+                    <button type="button" className="btn-close" onClick={onClose} ></button>
                 </div>
             </div>  
             <div className="row m-2">
@@ -29,12 +29,12 @@ const ModalContent = ({ onClose }) => {
                     </div>
                     <div className="col-md-4 mt-3">
                         <div className="card-body">
-                            <h5 className="card-title border-bottom border-secondary-subtle"><i class="i-modal bi bi-person"></i><a href="https://github.com/" target='_blank' rel="noreferrer">{user.name}</a></h5>
-                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-geo-alt"></i>{user.location}</p>
-                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-card-text"></i>{user.bio}</p>
-                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-box"></i>Repositories: {user.public_repos}</p>
-                            <p className="card-text border-bottom border-secondary-subtle"><i class="i-modal bi bi-people"></i>Followers: {user.followers}</p>
-                            <p className="card-text"><i class="i-modal bi bi-people"></i>Followings: {user.following}</p>
+                            <h5 className="card-title border-bottom border-secondary-subtle"><i className="i-modal bi bi-person"></i><a href="https://github.com/" target='_blank' rel="noreferrer">{user.name}</a></h5>
+                            <p className="card-text border-bottom border-secondary-subtle"><i className="i-modal bi bi-geo-alt"></i>{user.location}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i className="i-modal bi bi-card-text"></i>{user.bio}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i className="i-modal bi bi-box"></i>Repositories: {user.public_repos}</p>
+                            <p className="card-text border-bottom border-secondary-subtle"><i className="i-modal bi bi-people"></i>Followers: {user.followers}</p>
+                            <p className="card-text"><i className="i-modal bi bi-people"></i>Followings: {user.following}</p>
                         </div>
                     </div>
             </div>

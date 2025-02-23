@@ -1,5 +1,5 @@
 const Banniere = () => 
-<img alt="banniere" title="banniere" src="/images/banner.jpg" className='img-fluid'/> ;
+<img alt="banniere" src="/images/banner.jpg" width="1920" height="300" loading="lazy" className='img-fluid'/> ;
 
 export default Banniere
 
