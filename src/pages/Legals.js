@@ -1,4 +1,3 @@
-import './css/legals.css';
 import Heading from "./Component/Heading";
 
 const ElementAccordeonOne = (props) => {

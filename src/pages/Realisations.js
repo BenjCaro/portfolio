@@ -1,7 +1,6 @@
 import Banniere from "./Component/Banniere";
 import Heading from "./Component/Heading";
 import Card from "./Component/Card";
-import "./css/realisation.css" ;
 const Realisations = () => {
     return (
         <>
