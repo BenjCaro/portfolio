@@ -1,5 +1,6 @@
 import './css/services.css';
 import Banniere from "./Component/Banniere";
+import Heading from './Component/Heading';
 
 
 function CardServices(props) {
@@ -19,12 +20,7 @@ const Services = () => {
         <>
             <Banniere/>
             <div className='container d-flex flex-column justify-content-center align-items-center'>
-                <div className='mt-5 mb-5 border-bottom border-primary border-4'>
-                    <div className='text-center pb-4 w-30 pe-3 ps-3'>
-                        <h1 className='h1 mb-1 fs-1 fw-bold mb-2'>Mon offre de services</h1>
-                        <span className='fs-6'>Voici les prestations sur lesquelles je peux intervenir</span>
-                    </div>
-                </div>
+                <Heading title="Mon offre de services" subtitle="Voici les prestations sur lesquelles je peux intervenir"/>
                 <div className='d-flex flex-wrap justify-content-center m-4'>
                     <div className='col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center'>
                         <CardServices icon="bi bi-brush" title="UX Design" 
