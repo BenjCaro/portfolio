@@ -1,6 +1,6 @@
 import React from 'react';
-import Heading from './Component/Heading';
 import Form from './Component/Form';
+
 
 const user = {
     name: "Doe",
@@ -14,7 +14,15 @@ const user = {
 const Contact = () => {
     return (
         <>
-        <Heading title="Contact" subtitle="Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact." />
+        <div className='d-flex flex-column justify-content-center align-items-center'>
+                <div className='mt-5 mb-5'>
+                    <div className='text-center pb-4 pe-3 ps-3'>
+                        <h1 className='h1 mb-1 fs-1 fw-bold mb-2'>Contact</h1>
+                        <span className='fs-6'>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</span>
+                    </div>
+                    <hr className="border border-primary border-2 opacity-100 m-auto w-50"/>
+                </div>   
+        </div>        
         <section className='container content border-white shadow rounded-1 d-flex mt-4 mb-4'>
             <div className='m-2 p-2 col-lg-6 col-md-6 col-sm-12'>
                 <h2 className='border-bottom border-primary border-4 fw-bold pb-2 fs-4 '>

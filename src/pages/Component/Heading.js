@@ -6,7 +6,7 @@ const Heading = (props) => {
                         <h1 className='h1 mb-1 fs-1 fw-bold mb-2'>{props.title}</h1>
                         <span className='fs-6'>{props.subtitle}</span>
                     </div>
-                    <hr className="border border-primary border-2 opacity-100 m-auto w-75"/>
+                    <hr className="border border-primary border-2 opacity-100 m-auto w-100"/>
                 </div>   
         </div>        
     );
