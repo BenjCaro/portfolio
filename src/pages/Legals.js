@@ -74,7 +74,7 @@ const Legals = () => {
     return (
         <div className='container'>
           <Heading title="Mention Legales"/>
-          <div className="accordion mb-5 mt-5" id="accordionPanelsStayOpenExample">
+          <div className="new-margin accordion mt-5" id="accordionPanelsStayOpenExample">
               <ElementAccordeonOne heading="Editeur du site"/>
               <ElementAccordeonTwo heading="Hébergeur" title="alwaysdata" adress="91 rue du Faubourg Saint-Honoré, 75008 Paris" site="www.alwaysdate.com"/>
               <ElementAccordeonThree heading="Crédits" title="Crédits"/>
