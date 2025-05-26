@@ -2,7 +2,7 @@ Bonjour,
 
 Le projet consiste à la création du site Portfolio de John Doe, developpeur full stack. 
 Ce portfolio permettra de faire la connaissance de John Doe.
-Sur ce site, se trouve les reseaux sociaux de John, une page contact ainsi que ses différentes réalisations.
+Sur ce site, se trouvent les reseaux sociaux de John, une page contact ainsi que ses différentes réalisations.
 
 Le projet a été developpé avec React JS et Bootstrap.
 
